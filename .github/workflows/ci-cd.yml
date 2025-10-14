@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Train model
-        run: python ex1_train.python
+        run: python ex1_train.py
 
       # - name: Run Flask server (test)
       # run:
