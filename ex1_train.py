@@ -10,9 +10,9 @@ mlflow.set_experiment("iris_classification")
 
 # LOad iris dataset and split into train/test sets
 iris= load_iris()
-# print(iris) loaded dataset
-# print(iris.data)     features
-# print(iris.target)   target labels
+print(iris) #loaded dataset
+print(iris.data)     #features
+print(iris.target)   #target labels
 
 X_train,X_test, y_train, y_test= train_test_split(
     iris.data,   #features
